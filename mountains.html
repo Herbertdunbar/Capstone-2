@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountains</title>
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+
+<body>
+    <div class="background">
+    
+<div class="overlay">
+    <h1>Select a Mountain</h1>
+
+    <!-- Dropdown to select a mountain -->
+    <select id="mountainSelect">
+        <option value="">Choose a mountain...</option>
+    </select>
+
+    <!-- Button to view selected mountain information -->
+    <button id="search-mountain-button">View Mountain</button>
+
+    <!-- Div to display the selected mountain's information -->
+    <div id="mountain-info"></div>
+
+    <!-- Button to clear results -->
+    <button onclick="clearResults()">Clear Results</button>
+</div>
+</div>
+    <!-- JavaScript files for data and functionality -->
+    <script src="./data/mountainData.js"></script>
+    <script src="./scripts/mountain.js"></script>
+
+</body>
+
+</html>
