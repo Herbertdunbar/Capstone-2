@@ -3,13 +3,37 @@ html,body{
     margin: 0;
 }
 
+main{
+    text-align: center;
+    margin-top: 20vh;
+}
+main a {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+main a img{
+    width: 20vw;
+}
+
 .background{
+    top: 0%;
     background-image: url("./asset/matterhorn-mountains.jpg") ;
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
     width: 100%;
-    position: relative;
+    position: fixed;
+    z-index: -1;
+}
+.background-park{
+    background-image: url("./images/national\ parks.jpg");
+    background-position: 100%;
+}
+.park-result{
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur(8px);
 }
 
 .overlay{
