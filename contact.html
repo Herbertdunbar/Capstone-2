@@ -59,10 +59,23 @@
         <!-- Container wrapper -->
       </nav>
     <div class="background"></div>
-    <main>
-        <a href="mountains.html"><img src="./images/ice mountain.jfif" alt=""><br>Mountains</a><br>
-        
-        <a href="national_parks.html"><img src="./images/Bond-StoryImage_3.jpg"><br>Parks</a><br>
-    </main>
+    <div class="contact-form-container">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <div class="input-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
 </body>
 </html>
