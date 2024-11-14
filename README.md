@@ -12,4 +12,5 @@ Created to display all national parks as well as a glass table feature.
 ![National Park Page](https://github.com/user-attachments/assets/3fef4d64-608f-4e06-ac12-1c7adf63465f)
 
 **Contact Page**
-Created this page for the user to contact the developer for any suggestions or concerns.
+Created this page for the user to contact the developer for any comments, suggestions or concerns. *This will be updated*
+![Contact page](https://github.com/user-attachments/assets/3416ed5f-d139-4ee5-b9a0-ca0545e6d87e)
