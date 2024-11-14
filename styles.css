@@ -1,0 +1,11 @@
+ .contact-container {
+        background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+        border-radius: 15px; /* Rounded corners for the glass look */
+        padding: 30px;
+        backdrop-filter: blur(10px); /* Creates the blurred glass effect */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+        width: 100%;
+        max-width: 600px;
+        color: #fff; /* Text color */
+        font-size: 1.1rem;
+      }
